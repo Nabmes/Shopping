@@ -7,6 +7,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
+			
 			<a class="navbar-brand" href="${contextRoot}/home">Shopping Market</a>
 		</div>
 

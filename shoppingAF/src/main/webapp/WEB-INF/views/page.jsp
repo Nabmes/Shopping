@@ -52,6 +52,10 @@ window.menu = '${title}';
 		<%@include file="about.jsp"%>
 		</c:if>
 		
+		<c:if test="${UserClickAllProducts == true or userClickCategoryProducts == true}">
+		<%@include file="listProducts.jsp"%>
+		</c:if>
+		
 	</div>
 
 	<!-- Footer Section -->
