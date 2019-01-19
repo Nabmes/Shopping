@@ -1,7 +1,33 @@
+/*added by myself*/
+
+html{
+	height: 100%;
+}
 body {
-  padding-top: 70px
+  padding-top: 70px;
+  height: 100%;
 }
 
+.wrapper{
+	min-height: 100%;
+	position : relative;
+}
+
+.content{
+	padding-bottom: 60px; /*height of footer*/
+}
+
+.footer {
+	width:100%;
+	position:absolute;
+	bottom:20px;
+	height: 60px;
+	
+}
+footer {
+    margin: 0;
+}
+/**/
 .slide-image {
   width: 100%;
 }
@@ -42,6 +68,3 @@ body {
   color: #333;
 }
 
-footer {
-  margin: 50px 0;
-}

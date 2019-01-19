@@ -19,6 +19,10 @@
 
 <title>Shopping - ${title}</title>
 
+<script>
+window.menu = '${title}';
+</script>
+
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
@@ -28,7 +32,7 @@
 </head>
 
 <body>
-
+<div class="wrapper">
 		<!-- Navbar Section -->
 		<%@include file="./shared/navbar.jsp"%>
 
@@ -57,7 +61,9 @@
 	<!-- JavaScript -->
 	<script src="${js}/jquery.js"></script>
 	<script src="${js}/bootstrap.min.js"></script>
+	<script src="${js}/myapp.js"></script>
 
+</div>
 </body>
 
 </html>
