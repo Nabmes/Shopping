@@ -1,4 +1,4 @@
-/* added as recommended in section 2.8*/
+/* added as recommended*/
 html{
 	height: 100%;
 }
@@ -28,7 +28,10 @@ body {
 	height: 100px;
 }
 
-/* / added as recommended in section 2.8*/
+.help-block{
+	color : #ff0000;
+}
+/* / added as recommended*/
 
 .slide-image {
   width: 100%;
