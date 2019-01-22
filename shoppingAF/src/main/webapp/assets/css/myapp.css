@@ -1,5 +1,4 @@
-/*added by myself*/
-
+/* added as recommended in section 2.8*/
 html{
 	height: 100%;
 }
@@ -17,17 +16,20 @@ body {
 	padding-bottom: 60px; /*height of footer*/
 }
 
-.footer {
-	width:100%;
-	position:absolute;
-	bottom:20px;
+.footer{
+	position: absolute;
+	bottom: 15px;
 	height: 60px;
-	
+	margin: 0;
 }
-footer {
-    margin: 0;
+
+.tableImg{
+	width:100px;
+	height: 100px;
 }
-/**/
+
+/* / added as recommended in section 2.8*/
+
 .slide-image {
   width: 100%;
 }
@@ -67,4 +69,3 @@ footer {
   padding: 9px;
   color: #333;
 }
-
