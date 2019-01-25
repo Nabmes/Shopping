@@ -31,7 +31,6 @@
 
 <!-- Add custom CSS here -->
 <link href="${css}/myapp.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -80,7 +79,10 @@
 		<!-- Datatable JS -->
 		<script src="${js}/jquery.dataTables.js"></script>
 		<script src="${js}/dataTables.bootstrap.js"></script>
-
+		<!-- BootBoxJS -->
+		<script src="${js}/bootbox.min.js"></script>
+		<!-- Jquery Validate -->
+		<script src="${js}/jquery.validate.js"></script>
 	</div>
 </body>
 

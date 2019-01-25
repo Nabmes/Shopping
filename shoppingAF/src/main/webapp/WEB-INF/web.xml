@@ -5,16 +5,23 @@
          version="3.1"> 
   <display-name>Archetype Created Web Application</display-name>
   
-  <!-- Configuring Front Controller -->
-  
   <servlet>
+ 	<!-- Configuring Front Controller -->
   	<servlet-name>dispatcher</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   	
+  	<!-- Configuring Exception -->
   	<init-param>
   		<param-name>throwExceptionIfNoHandlerFound</param-name>	
   		<param-value>true</param-value>
   	</init-param>
+  	
+  	<!-- Configuring multipartResolver -->
+  	<multipart-config>
+			<max-file-size>20848820</max-file-size>
+			<max-request-size>418018841</max-request-size>
+			<file-size-threshold>1048576</file-size-threshold>
+		</multipart-config>
   </servlet>
   
   <servlet-mapping>
